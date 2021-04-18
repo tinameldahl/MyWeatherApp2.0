@@ -1,3 +1,149 @@
-h1 {
-  color: blue;
+* {
+  box-sizing: border-box;
+}
+
+form.search-field input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  margin-bottom: 5%;
+}
+
+.submit-button {
+  background-color: cadetblue;
+  color: white;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid cadetblue;
+}
+
+.unit {
+  font-size: 16px;
+}
+
+.extra-description {
+  color: gray;
+  margin-top: -30px;
+  font-size: 14px;
+}
+
+form.search-field button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: cadetblue;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+form.search-field button:hover {
+  background: cadetblue;
+}
+
+#city-test {
+  font-size: 50px;
+  color: grey;
+}
+
+.heading {
+  color: cadetblue;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+body {
+  padding-top: 5%;
+}
+
+.temp {
+  margin-bottom: -2px;
+  font-style: italic;
+  color: black;
+}
+
+.city {
+  font-size: 40px;
+  color: grey;
+}
+
+.time-date {
+  font-size: 25px;
+  color: grey;
+  margin-top: -20px;
+}
+
+.date-month {
+  font-size: 25px;
+  color: grey;
+  margin-top: -20px;
+}
+
+.weather-icon {
+  font-size: 120px;
+  color: cadetblue;
+  margin-top: 20px;
+}
+
+.details .mainTemperature {
+  font-size: 70px;
+  margin-bottom: -15px;
+  color: grey;
+  margin-top: -10px;
+}
+
+.details #temperature-description {
+  font-size: 18px;
+  padding-bottom: 20px;
+  color: grey;
+  text-transform: capitalize;
+}
+
+.details {
+  margin-bottom: 50px;
+}
+
+.next .head-next {
+  font-size: 20px;
+  color: grey;
+}
+
+.card-body {
+  text-align: center;
+  width: 100%;
+}
+.card-body .day {
+  color: grey;
+  font-size: 12px;
+}
+
+.card-body i {
+  color: grey;
+  font-size: 35px;
+}
+
+.card-body .future-degree {
+  color: grey;
+  font-size: 12px;
+}
+
+.col-sm-2 {
+  margin: -8px;
+}
+
+.note {
+  color: grey;
+  padding-top: 20px;
+}
+
+button {
+  background-color: cadetblue;
+  color: white;
+  border: cadetblue;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
